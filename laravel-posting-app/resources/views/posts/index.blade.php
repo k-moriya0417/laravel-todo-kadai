@@ -21,6 +21,7 @@
                  <div class="card mb-3">
                      <div class="card-body">
                          <h2 class="card-title fs-5">{{ $post->title }}</h2>
+                         <h3 class="card-title fs-6 my-3">{{ $post->created_at }}</h3>
                          <p class="card-text">{{ $post->content }}</p>
  
                          <div class="d-flex">
